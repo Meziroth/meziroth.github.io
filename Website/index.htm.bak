@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+
+<head>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+	
+	
+<header>
+	
+	
+</header>
+
+<!--- <nav>
+		<ul>
+			<li><a href ="index.htm">Home</a></li>
+			<li><a href ="article.htm">Articles</a></li>
+			<li><a href ="about.htm">About</a></li>
+			<li><a href ="blog.htm">Blog</a></li>
+			<li><a href ="tips.htm">Tips</a></li>
+			<li><a href ="contact.htm">Contact</a></li>
+		</ul>
+</nav>	--->
+	
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <a class="navbar-brand" href="index.htm">Astounding Legends</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    	<!-- This is for the active page the user is on -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.htm">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <!-- This is for a dropdown menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="articles" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Articles
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="articles/goblins.htm">Vol 1: On Goblins</a>
+          <a class="dropdown-item" href="articles/dootdoot.htm">Vol 2: Mr & Mrs. Skeltal</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="articles/archive.htm">Archives</a>
+        </div>
+      </li>
+      <!-- This is a basic link. The user is NOT on this page -->
+      <li class="nav-item">
+        <a class="nav-link" href="blog.htm">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tips.htm">Tips</a>
+      </li>
+     <!-- This is a disabled link that is still visible to the user -->
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Log In</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <i>Reporting From the Fringe!</i>
+    </span>
+   
+  </div>
+</nav>
+
+	
+
+<p> This is a very simple HTML page </p>
+<!--- <script src="script.js"></script> --->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
