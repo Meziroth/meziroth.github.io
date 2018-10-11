@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AL - Home</title>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="container.fluid">
+      	
+      	
+      	
+      	<div class="d-flex-inline flex-column ">
+        <a class="navbar-brand" href="#">Astounding <span style="color:yellow;">Legends</span></a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-text small">Reporting from the Fringe!</span>
+				<span class="navbar-text ml-auto">Issue No. 1</span>
+				</div>
+				
+				
+				
+				<div class="d-flex-inline flex-column">
+				<span class="navbar-text ml-auto" id="nav-date"> 
+            <script>
+                var d = new Date()
+                document.getElementById("nav-date").innerHTML = d.toDateString();
+            </script>
+							</span>
+							
+    
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="articles/articles.htm" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Articles </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="articles/goblins.htm">On Goblins
+                        </a>
+                        <a class="dropdown-item" href="articles/dootdoot.htm">Mr. & Mrs. Skeltal</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="articles/archives.htm">Archives</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog/blog.htm">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Tips/Tips.htm">Tips</a>
+                </li>
+
+						
+
+            </ul>
+ 
+    		</div>
+    	
+     </div>
+       
+    </nav>
+
+    	<!---	<div>
+    			     <div class= "p-2 flex-fill bd-highlight"><h1>Placehold Text</h1></div>
+    		</div> --->
+   
+    
+</header>
+
+
+<div class="container">
+
+
+</div>
+
+
+
+
+</body>
+<footer>
+        <nav class="navbar-expand navbar fixed-bottom navbar-light bg-light">
+                <div class=" abs-center-x  d-sm-block mx-auto">
+                	<!--- abs-center-x used to center links --->
+										
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                						<a class="nav-link "  href="contact.htm">Contact</a>
+                						               
+                					</li> 
+                					<span class ="navbar-text">|</span>
+                					 <li class="nav-item">
+                						<a class="nav-link "  href="about.htm">About</a>
+                						               
+                					</li>
+                					<span class ="navbar-text">|</span>
+                					 <li class="nav-item">
+                						<a class="nav-link "  href="subscribe.htm">Subscribe</a>
+                						</li>          
+                						
+                			
+</ul>
+                				
+                					
+                					
+
+                <!-- <span class = "navbar-text">© 2018 Potter Press Co.</span> -->
+                </div>
+                <div class = " d-none d-sm-block ml-auto">
+                	<span class = "navbar-text">© 2018 Potter Press Co.</span>
+                	</div>
+              </nav>
+</footer>
+</html>

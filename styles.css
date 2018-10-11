@@ -1,0 +1,109 @@
+ /*----------------------- Header Styles ------------------------------ */
+
+
+h1 {
+	color: black;
+	text-align: center;
+font-family:'EB Garamond', serif;
+	;
+}
+
+h2 {
+	color: white;
+font-family:'EB Garamond', serif;
+
+}
+
+h2.homeh2 {
+	color: black;
+	font-family:'EB Garamond', serif;
+}
+h3 { font-family:'EB Garamond', serif;
+}
+
+h4 { font-family:'EB Garamond', serif;
+}
+
+h5 { font-family:'EB Garamond', serif;
+}
+
+h6 { font-family:'EB Garamond', serif;
+}
+
+a.navbar-brand { font-family:'EB Garamond', serif;
+}
+
+span.navbar-text { font-family:'Lusitana', serif;
+}
+
+.nav>li>a:active{
+   background-color: rgba(255,255,255,0.8);
+   color: rgba(217,255,215,1);
+   
+}
+.nav>li>a:hover{
+   background-color: rgba(255,255,255,0.8);
+   
+}
+
+
+
+
+ /*----------------------- Body Styles ------------------------------ */
+
+
+body {
+	background-color: white;
+}
+
+
+ /*----------------------- Jumbotron Styles ------------------------------ */
+p.jumbo {
+	font-family:Garamond;
+	font-style: italics;
+}
+
+hr.jumbo    { margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+ /*----------------------- Paragraph Styles ------------------------------ */
+
+p {
+	color: black;
+	font-family: 'Lusitana', serif;
+}
+
+ /*----------------------- Card Styles ------------------------------ */
+ 
+ 
+
+ /*----------------------- Footer Styles ------------------------------ */
+
+
+
+ /*----------------------- abs-center Styles ------------------------------ */
+
+@media (min-width: 576px) {
+    .abs-center-x {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+ /*----------------------- footer Styles ------------------------------ */
+
+
+.pbreak {border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ /*----------------------- abs-center Styles ------------------------------ */
+ 
+ a.nav-link {
+ 	color: black;
+ 	font-family: 'EB Garamond', serif;
+}
+ 	
