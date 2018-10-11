@@ -58,16 +58,63 @@ body {
 
 
  /*----------------------- Jumbotron Styles ------------------------------ */
-p.jumbo {
-	font-family:Garamond;
-	font-style: italics;
+.jumbotron {
+	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("https://orig00.deviantart.net/8931/f/2012/282/a/0/goblin_dancer_by_mariusbota-d5h9uyi.jpg");
+	background-size: cover;
+	
 }
 
-hr.jumbo    { margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+
+.jumbo {
+	font-size: 100;
+}
+
+ h1.jumbo {
+	text-align: left;
+	color: white;
+	font-size: 8rem;
+	margin-top: -3%;
+	padding: 0%;
+}
+
+h2.jumbo {
+	color: rgb(65, 226, 1);
+	font-size: 8rem;
+	margin-top: -3%;
+	padding: 0%;
+}
+h1.jumbo-small {
+	text-align: left;
+	color: white;
+	font-size: 3rem;
+	margin-top: -3%;
+	padding: 0%;
+}
+
+h2.jumbo-small {
+	color: rgb(65, 226, 1);
+	font-size: 3rem;
+	margin-top: -3%;
+	padding: 0%;
+}
+ p.lead {
+	font-family: 'Lusitana', serif;
+	font-style: italics;
+	padding-left: 0rem;
+}
+
+hr.jumbo    { 
+	margin-top: -0.5rem;
+    
     
     border: 0;
     border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+a.jumbo {
+	font-family: 'EB Garamond', serif;
+	padding-left: 0rem;
+	color: rgb(217, 255, 215);
 }
  /*----------------------- Paragraph Styles ------------------------------ */
 
@@ -78,8 +125,17 @@ p {
 
  /*----------------------- Card Styles ------------------------------ */
  
- 
+ .card-link {
+	 color: rgb(212, 131, 0);
+	 font-family: 'EB Garamond', serif;
+ }
 
+ .card { 
+	 border: none;
+	 
+ }
+
+ 
  /*----------------------- Footer Styles ------------------------------ */
 
 
@@ -106,4 +162,12 @@ p {
  	color: black;
  	font-family: 'EB Garamond', serif;
 }
- 	
+	 
+
+body {
+	background-color: rgb(211, 211, 211);}
+
+.bodybg {
+	background-color: white;
+	padding-top: 50px;
+}
